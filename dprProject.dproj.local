@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/10/24 14:09:07.000.533,=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/24 14:24:29.000.057,C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\UPrincipal.pas</Transaction>
+    <Transaction>2024/10/24 14:24:29.000.057,C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\UPrincipal.dfm</Transaction>
+    <Transaction>2024/10/24 14:24:50.000.745,C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\dprProject.dproj</Transaction>
+    <Transaction>2024/10/24 14:54:57.000.623,=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\Unit1.pas</Transaction>
+    <Transaction>2024/10/24 15:10:10.000.508,C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\Unit1.dfm=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\UCalculadora.dfm</Transaction>
+    <Transaction>2024/10/24 15:10:10.000.508,C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\Unit1.pas=C:\Users\20242PF.CC0033\Documents\Embarcadero\Studio\Projects\DeusAbençõe\UCalculadora.pas</Transaction>
+  </Transactions>
+</BorlandProject>
