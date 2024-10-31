@@ -133,6 +133,10 @@
             <Form>frmCalculadora</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="ULogin.pas">
+            <Form>frmLogin</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

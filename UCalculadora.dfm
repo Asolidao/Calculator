@@ -15,7 +15,7 @@ object frmCalculadora: TfrmCalculadora
     Left = 96
     Top = 48
     Width = 193
-    Height = 49
+    Height = 23
     TabOrder = 0
   end
   object Button1: TButton
@@ -25,6 +25,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '7'
     TabOrder = 1
+    OnClick = Bnt7
   end
   object Button2: TButton
     Left = 168
@@ -33,6 +34,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '8'
     TabOrder = 2
+    OnClick = Bnt8
   end
   object Button3: TButton
     Left = 240
@@ -41,6 +43,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '9'
     TabOrder = 3
+    OnClick = Bnt9
   end
   object Button4: TButton
     Left = 96
@@ -49,6 +52,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '4'
     TabOrder = 4
+    OnClick = Bnt4
   end
   object Button5: TButton
     Left = 168
@@ -57,6 +61,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '5'
     TabOrder = 5
+    OnClick = Bnt5
   end
   object Button6: TButton
     Left = 240
@@ -65,6 +70,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '6'
     TabOrder = 6
+    OnClick = Bnt6
   end
   object Button7: TButton
     Left = 96
@@ -73,6 +79,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '1'
     TabOrder = 7
+    OnClick = Bnt1
   end
   object Button8: TButton
     Left = 168
@@ -81,6 +88,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '2'
     TabOrder = 8
+    OnClick = Bnt2
   end
   object Button9: TButton
     Left = 240
@@ -89,6 +97,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '3'
     TabOrder = 9
+    OnClick = Bnt3
   end
   object Button10: TButton
     Left = 304
@@ -97,6 +106,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = 'C'
     TabOrder = 10
+    OnClick = BntClear
   end
   object Button11: TButton
     Left = 304
@@ -113,6 +123,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '+'
     TabOrder = 12
+    OnClick = BntSoma
   end
   object Button13: TButton
     Left = 304
@@ -137,6 +148,7 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '='
     TabOrder = 15
+    OnClick = result
   end
   object Button16: TButton
     Left = 96
@@ -145,5 +157,6 @@ object frmCalculadora: TfrmCalculadora
     Height = 49
     Caption = '0'
     TabOrder = 16
+    OnClick = Bnt0
   end
 end

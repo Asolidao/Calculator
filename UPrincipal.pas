@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.ComCtrls,UCalculadora;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.ExtCtrls, Vcl.ComCtrls,UCalculadora, ULogin;
 
 type
   TfrmPrincipal = class(TForm)
@@ -20,12 +20,15 @@ type
     Calculadora2: TMenuItem;
     NotePad1: TMenuItem;
     N3: TMenuItem;
+    rocarusuario1: TMenuItem;
     procedure Timer1Timer(Sender: TObject);
     procedure Calculadora1Click(Sender: TObject);
     procedure Calculadora2Click(Sender: TObject);
     procedure NotePad1Click(Sender: TObject);
     procedure sair2Click(Sender: TObject);
     procedure N2Click(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure rocarusuario1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -54,6 +57,12 @@ begin
     frmCalculadora.Free;
 end;
 
+procedure TfrmPrincipal.FormShow(Sender: TObject);
+begin
+  frmLogin:= TfrmLogin.Create(Application);
+  frmLogin.ShowModal;
+end;
+
 procedure TfrmPrincipal.N2Click(Sender: TObject);
 begin
    Close();
@@ -62,6 +71,12 @@ end;
 procedure TfrmPrincipal.NotePad1Click(Sender: TObject);
 begin
     winexec('Notepad.exe', Sw_Show);
+end;
+
+procedure TfrmPrincipal.rocarusuario1Click(Sender: TObject);
+begin
+  frmLogin:= TfrmLogin.Create(Application);
+  frmLogin.ShowModal;
 end;
 
 procedure TfrmPrincipal.sair2Click(Sender: TObject);
